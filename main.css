@@ -220,4 +220,8 @@ footer img {
     .name {
       width: 80%;
     }
+
+    #navbar ul {
+      margin-right: 25px;
+    }
   }
