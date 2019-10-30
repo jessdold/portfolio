@@ -214,3 +214,10 @@ footer img {
     font-size: 34px;
   }
 }
+
+@media only screen 
+  and (min-width: 1064px) {
+    .name {
+      width: 72%;
+    }
+  }
