@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio greybox wireframe</title>
+    <title>Jess Dold Portfolio Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Muli|Open+Sans|Shadows+Into+Light+Two|Yeseva+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <nav role="navigation">
-      Nav Bar
-    </nav>
+<body> 
+
+  <nav id="navbar"> 
+    <ul> 
+      <li><a href="http://github.com">Bio</a></li> 
+      <li><a href="mailto:jessica.dold6@gmail.com">Email</a></li>
+      <li><a href="http://github.com">Projects</a></li> 
+    </ul> 
+  </nav> 
     
-    <main role="main">
-      
-      <div class="container">
-        <section class="headshot">
-            Headshot Img
-        </section>
-        <h1 class="name">JESS DOLD</h1>
+  <main role="main">
+
+    <div class="outerWrap"></div>
+
+    <div class="diagonal">
       </div>
+    
+    <div class="container">
 
-      
-        <section class="headline">
-            <p>Headline Headline Headline Headline</p>
-        </section>
+      <section class="headshot">
+        <img class="mypic" src="images/circle.png" alt="jess dold headshot" />
+      </section>
+      <section class="name">
+        jess dold
+      </section>
+    </div>
+    
+    <section class="headline">
+        <p>Hi! I’m Jess. I am an artist whose canvas is full-stack web development.</p>
+    </section>
 
-        <section class="projects">
-            <span class="section-title">Projects</span>
-        </section>
-
-        <section class="bio sidebar1">
-            <span class="section-title">Bio</span>
-            <p>Lorem Ipsum</p>
-        </section>
+    <section class="section projects">
+        <span class="section-title">Projects</span>
         
-    </main>
+        <div class="projectBox">
+          <div class="screenshot">
+            <img class="quizapp-img" src="images/quizapp.jpg" alt="screenshot of quizapp result page">
+          </div>
+          <h2>The Music Snobbery Quiz</h2>
+          <p>This interactive multiple-choice quiz app was developed to test both one's classical music knowledge and pomposity status.</p>
+          <h3>Technologies:</h3>
+          <img class="logo" src="images/html-64px.jpg" alt="HTML logo">
+          <img class="logo" src="images/css-64px.jpg" alt="CSS logo">
+          <img class="logo" src ="images/jquery-64px.jpg" alt="jQuery logo">
+          <p>
+            <a href="https://github.com/jessdold/quizapp.git">Repo</a>
+            <a href="https://jessdold.github.io/quizapp/">Live Page</a></p>
+        </div>
+    </section>
 
-      <footer class="footer sidebar2">
-          <span class="section-title">Contact Me</span>
-            <p>Nav Bar</p>
-      </footer> 
-   
+    <section class="section bio">
+      <span class="section-title">About Me</span>
+      
+      <p>I’m pretty good at combining my skills as a full-stack developer with my passion for creating UI/UX-centered, accessible, entertaining design. I am on a mission to end unnecessary interaction with confusing, frustrating, and dysfunctional websites! I currently work in HTML, CSS, Javascript and jQuery, and am a student in the Web Developer Track course at Bloc. I am eager to collaborate with other talented programmers to create web apps that make lives easier.</p>
+      <p>When I’m not coding, I fill my time singing opera (no, really!), interacting with food, and attempting to parent a toddler. I used to love sleep.</p>
+    </section>
+      
+  </main>
+
+  <footer class="footer">
+    
+      <span class="last section-title">Contact Me</span>
+      <section class="contacts">
+        <a href="mailto:jessica.dold6@gmail.com"><img src="images/email-icon.jpg" alt="mail envelope icon"></a>
+
+        <a href="https://https://github.com/jessdold"><img src="images/github-64px.jpg" alt="github icon"></a>
+
+        <a href="https://https://www.facebook.com/jessica.dold6?ref=bookmarks"><img src="images/facebook-64px.jpg" alt="facebook icon"></a>
+
+        <a href="https://www.linkedin.com/in/jessica-dold/"><img src="images/linked-64.jpg" alt="linkedin icon"></a>
+
+      </section>
+  </footer>
+     
 </body>
 </html>
