@@ -59,20 +59,18 @@ body {
   width: 35%;
   max-width: 250px;
   background-color: rgb(88, 206, 233);
-  margin-left: 20px;
+  margin-left: 40px;
   
 }
 
 .mypic {
-  /* margin-top:5px; */
   max-height:100%; max-width:100%;
 }
 
 .name {
   margin-top: 50px;
-  /* width: 60%; */
   text-align: right;
-  margin-right: 10px;
+  margin-right: 20px;
   font-size: 50px;
   font-family: 'Love Ya Like A Sister', cursive;
 
