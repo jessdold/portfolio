@@ -122,6 +122,7 @@ h3 {
 
 footer {
   display: flex;
+  align-items: center;
   border-top: 1px solid black;
   padding-top: 8px;
 }
@@ -161,14 +162,13 @@ footer img {
 
   .headline {
     margin-top: 25px;
-    /* make space on right side of text */
   }
 
- .projects {
+ /* .projects {
     margin-left: 3%;
     float: right;
-    width: 64%;
-  }
+    width: 64%; */
+  /* } */
 
   .projectBox {
   text-align: left;
@@ -178,14 +178,14 @@ footer img {
     width: 90%;
   }
 
-  .bio {
+  /* .bio {
     float: left;
     width: 32%;
   }
   
   footer {
     clear: both;
-  }
+  } */
 
   /* .headshot {
     margin: 30px 2% 2% 7%;
@@ -228,5 +228,20 @@ footer img {
 
     #navbar ul {
       margin-right: 25px;
+    }
+
+    .projects {
+      margin-left: 3%;
+      float: right;
+      width: 64%;
+    }
+
+    .bio {
+      float: left;
+      width: 32%;
+    }
+    
+    footer {
+      clear: both;
     }
   }
