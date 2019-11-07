@@ -23,6 +23,7 @@
   top:100px;
   display: flex;
   width: 100%;
+  justify-content: space-around;
   
 }
 
@@ -69,7 +70,7 @@ body {
 
 .name {
   margin-top: 50px;
-  width: 60%;
+  /* width: 60%; */
   text-align: right;
   margin-right: 10px;
   font-size: 50px;
@@ -174,7 +175,7 @@ footer img {
   }
 
   .quizapp-img {
-    width: 90%;
+    width: 70%;
   }
 
   /* .bio {
@@ -202,7 +203,7 @@ footer img {
 
   .name {
     font-size: 75px;
-    width: 65%;
+    /* width: 65%; */
   }
 /* 
   .headshot {
@@ -222,7 +223,7 @@ footer img {
 @media only screen 
   and (min-width: 1064px) {
     .name {
-      width: 80%;
+      /* width: 80%; */
     }
 
     #navbar ul {
@@ -233,6 +234,10 @@ footer img {
       margin-left: 3%;
       float: right;
       width: 64%;
+    }
+
+    .quizapp-img {
+      width: 90%;
     }
 
     .bio {
