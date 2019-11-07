@@ -23,7 +23,7 @@
   top:100px;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   
 }
 
@@ -164,37 +164,10 @@ footer img {
     margin-top: 25px;
   }
 
- /* .projects {
-    margin-left: 3%;
-    float: right;
-    width: 64%; */
-  /* } */
-
-  .projectBox {
-  text-align: left;
-  }
-
   .quizapp-img {
     width: 70%;
   }
 
-  /* .bio {
-    float: left;
-    width: 32%;
-  }
-  
-  footer {
-    clear: both;
-  } */
-
-  /* .headshot {
-    margin: 30px 2% 2% 7%;
-    
-  } */
-
-  /* .mypic {
-    width: 90%
-  } */
 }
 
 
@@ -205,10 +178,6 @@ footer img {
     font-size: 75px;
     /* width: 65%; */
   }
-/* 
-  .headshot {
-    margin: 4% 2% 2% 7%;
-  } */
 
   .headline {
     font-size: 26px;
@@ -222,9 +191,7 @@ footer img {
 
 @media only screen 
   and (min-width: 1064px) {
-    .name {
-      /* width: 80%; */
-    }
+    
 
     #navbar ul {
       margin-right: 25px;
@@ -235,6 +202,10 @@ footer img {
       float: right;
       width: 64%;
     }
+
+    .projectBox {
+      text-align: left;
+      }
 
     .quizapp-img {
       width: 90%;
